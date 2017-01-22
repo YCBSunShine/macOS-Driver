@@ -12,7 +12,7 @@ OSDefineMetaClassAndStructors(com_apple_driver_IOKitTest, IOService);
 bool com_apple_driver_IOKitTest::init(OSDictionary *dict)
 {
     bool result = super::init(dict);
-    IOLog("IOKitTest : did init !! \n");  // IOlog() 生成log日志, 存在在system.log里
+    IOLog("IOKitTest : did init !! \n");  // IOlog() 生成log日志, 在system.log里查看
     
     
     /** 遍历OSDictionary */
